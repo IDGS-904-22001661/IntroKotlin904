@@ -7,10 +7,8 @@ set
 MutableSet
 Map
 MutableMap
- */
 
-fun Main(){
-    val readOnlyFiguras = listOf("Cuadrado", "Triangulo", "circulo")
+val readOnlyFiguras = listOf("Cuadrado", "Triangulo", "circulo")
     println(readOnlyFiguras)
     var figura: mutableFiguras = mutableListOf("Cuadrado", "Triangulo", "circulo")
     val mutableFiguras: List<String> = figura
@@ -22,6 +20,11 @@ fun Main(){
     println(coches)
     val coche2 = mutableMapOf("uno" to 1, "dos" to 2, "tres" to 3)
     println(coche2)
+    println("Hola")
+
+ */
+
+fun Main(){
 
 
 }
