@@ -25,7 +25,7 @@ val readOnlyFiguras = listOf("Cuadrado", "Triangulo", "circulo")
  */
 
 fun Main(){
-
+    val readOnlyFiguras = listOf("cuadreado")
 
 }
 
