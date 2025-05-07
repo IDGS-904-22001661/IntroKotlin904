@@ -11,12 +11,14 @@ fun main(){
     println(a)
     println("el valor de b es $b")
     println("el valor de c + 2 es ${c+2}")
-
+/*
     c=a+2
     c+=6
     c-=5
     c*8
     c/=2
+ */
+
     println("el valor de c es $c")
 
     val num1: int = 23
