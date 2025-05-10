@@ -21,5 +21,14 @@ fun main(){
         println("Debe de pagar impuesto")
     }
 
+    //when
+
+    val obj = "Hello"
+    when (obj){
+        "1" -> println("Uno")
+        "Hello" -> println("Dos")
+        else -> println("no hay coincidencia")
+    }
+
 
 }
