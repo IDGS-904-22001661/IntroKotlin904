@@ -13,10 +13,13 @@
         android:theme="@style/Theme.IntroKotlin904"
         tools:targetApi="31">
         <activity
+            android:name=".tema1app.Ejemplo2Activity"
+            android:exported="false" />
+        <activity
             android:name=".tema1app.Ejemplo1Activity"
             android:exported="false" />
         <activity
-            android:name=".tema1app.Ejemplo2Activity"
+            android:name=".PracticaCinepolis.practicaCinepolis"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.DayNight">
             <intent-filter>
