@@ -13,13 +13,16 @@
         android:theme="@style/Theme.IntroKotlin904"
         tools:targetApi="31">
         <activity
-            android:name=".tema1app.Ejemplo2Activity"
-            android:exported="false" />
+            android:name=".Tem2App.ResultadoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight"
+            />
         <activity
-            android:name=".tema1app.Ejemplo1Activity"
-            android:exported="false" />
+            android:name=".Tem2App.Ejemplo2Activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight" />
         <activity
-            android:name=".PracticaCinepolis.practicaCinepolis"
+            android:name=".MenuActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.DayNight">
             <intent-filter>
@@ -29,16 +32,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".tema1app.Ejemplo2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".tema1app.Ejemplo1Activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".PracticaCinepolis.practicaCinepolis"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.IntroKotlin904">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.AppCompat.DayNight" />
     </application>
 
 </manifest>
