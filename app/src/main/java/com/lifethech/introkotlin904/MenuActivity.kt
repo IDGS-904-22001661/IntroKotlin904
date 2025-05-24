@@ -27,6 +27,14 @@ class MenuActivity : AppCompatActivity() {
         val btn3Ejemplo2 = findViewById<Button>(R.id.btn3Ejemplo2)
         btn3Ejemplo2.setOnClickListener{navegateToEjemplo2()}
 
+        val btn4Ejemplo3 = findViewById<Button>(R.id.btn4Ejemplo3)
+        btn4Ejemplo3.setOnClickListener{navegateToEjemplo3()}
+
+        val btn5Ejemplo4 = findViewById<Button>(R.id.btn5Ejemplo4)
+        btn5Ejemplo4.setOnClickListener{navegateToEjemplo4()}
+
+
+
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -50,6 +58,16 @@ class MenuActivity : AppCompatActivity() {
 
     private fun navegateToEjemplo2() {
         val intent = Intent(this, com.lifethech.introkotlin904.Tem2App.Ejemplo2Activity::class.java)
+        startActivity(intent)
+    }
+
+    private fun navegateToEjemplo3() {
+        val intent = Intent(this, com.lifethech.introkotlin904.Tema3.Ejemplo3Activity::class.java)
+        startActivity(intent)
+    }
+
+    private fun navegateToEjemplo4() {
+        val intent = Intent(this, com.lifethech.introkotlin904.Tema4.Ejemplo4Activity::class.java)
         startActivity(intent)
     }
 }
