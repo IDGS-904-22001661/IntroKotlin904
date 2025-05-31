@@ -33,7 +33,11 @@ class MenuActivity : AppCompatActivity() {
         val btn5Ejemplo4 = findViewById<Button>(R.id.btn5Ejemplo4)
         btn5Ejemplo4.setOnClickListener{navegateToEjemplo4()}
 
-
+        val btnPracticaDiccionario = findViewById<Button>(R.id.btnPracticaDiccionario)
+        btnPracticaDiccionario.setOnClickListener {
+            val intent = Intent(this, com.lifethech.introkotlin904.PracticaDiccionario.MenuDiccionarioActivity::class.java)
+            startActivity(intent)
+        }
 
 
 
